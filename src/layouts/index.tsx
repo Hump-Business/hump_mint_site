@@ -1,5 +1,3 @@
-import mainLayout from "./main";
-import mainHeader from "./header/mainHeader";
-import mainFooter from "./footer/mainFooter";
+import MainLayout from "./main/MainLayout";
 
-export default { mainHeader, mainFooter, mainLayout };
+export { MainLayout };

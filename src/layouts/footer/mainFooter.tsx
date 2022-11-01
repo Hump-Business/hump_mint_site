@@ -1,7 +1,7 @@
 import React from "react";
 
-const mainFooter = () => {
+const MainFooter = () => {
   return <div>mainFooter</div>;
 };
 
-export default mainFooter;
+export default MainFooter;
