@@ -20,7 +20,7 @@ const Home: FC = () => {
       <div className="w-full max-w-[1300px] flex flex-row gap-5 mt-[150px] items-center">
         <div className="w-full flex flex-col justify-center items-center">
           <div className="w-[400px]">
-            <p className="uppercase font-Akira text-[50px] mb-[50px] leading-[60px]">
+            <p className="uppercase font-Akira text-[51px] mb-[50px] leading-[60px]">
               Hump Business
             </p>
             <p className="text-[16px] mb-[50px]">
