@@ -1,5 +1,5 @@
 import React from "react";
-import { maxWidth } from "../../enum";
+import { FC } from "react";
 import { Link } from "react-router-dom";
 
 import { useScrollPosition } from "../../hooks/userScrollPosition";
@@ -9,7 +9,7 @@ import Discord from "../../assets/imgs/discord.png";
 import Instagram from "../../assets/imgs/instagram.png";
 import Twitter from "../../assets/imgs/twitter.png";
 
-const MainHeader = () => {
+const MainHeader: FC = () => {
   const scrollPosition = useScrollPosition();
 
   return (

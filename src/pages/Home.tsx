@@ -1,9 +1,10 @@
 import React from "react";
+import { FC } from "react";
 
 import Banner from "../assets/imgs/banner.jpg";
 import NFT from "../assets/imgs/nft.png";
 
-const Home = () => {
+const Home: FC = () => {
   return (
     <div className="w-full mt-[-75px] flex flex-col items-center">
       <div className="w-full h-screen relative flex justify-center items-center">

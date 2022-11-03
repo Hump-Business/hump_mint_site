@@ -1,10 +1,11 @@
 import React from "react";
+import { FC } from "react";
 import { Outlet } from "react-router-dom";
 
 import MainHeader from "../header/MainHeader";
 import MainFooter from "../footer/MainFooter";
 
-const MainLayout = () => {
+const MainLayout: FC = () => {
   return (
     <div className="w-full">
       <MainHeader />
