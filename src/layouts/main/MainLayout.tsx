@@ -6,7 +6,7 @@ import MainFooter from "../footer/MainFooter";
 
 const MainLayout = () => {
   return (
-    <div>
+    <div className="w-full">
       <MainHeader />
       <Outlet />
       <MainFooter />
