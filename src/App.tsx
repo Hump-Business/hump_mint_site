@@ -1,6 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { MainLayout } from "./layouts";
+// import { MainLayout } from "./layouts";
+import MainLayout from "./layouts/main/MainLayout";
 import Home from "./pages/Home";
 
 const App = () => {
